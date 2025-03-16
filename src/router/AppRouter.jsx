@@ -6,6 +6,7 @@ import Register from "../pages/Register";
 import About from "../pages/About";
 import Login from "../pages/Login";
 import Blog from "../pages/Blog";
+import Footer from "../components/Footer";
 
 const AppRouter = () => {
   return (
@@ -18,6 +19,7 @@ const AppRouter = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/blog" element={<Blog/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 };

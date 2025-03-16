@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        myBlue1: "#1CC9DB", 
-        myBlue2: "#07B7E8",
-        myPurple: "#7B1FA2", 
-        myGreen1: "#10B981" ,
-        myGreen2:"#9FED91"
+        cyanBlue: "#1CC9DB", 
+        skyBlue: "#07B7E8",
+        royalPurple: "#7B1FA2", 
+        mintGreen: "#10B981" ,
+        pastelGreen:"#9FED91",
+        peachBeige:"#EDB391",
+        softPeach:"#F8DCC3"
       }
     }
   },
