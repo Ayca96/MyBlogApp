@@ -1,9 +1,12 @@
 import React from 'react'
+import Categories from '../components/home/Categories'
+import FeaturedBlogs from '../components/home/FeaturedBlogs'
 
 const Home = () => {
   return (
     <div>
-      Home
+      <Categories/>
+      <FeaturedBlogs/>
     </div>
   )
 }
