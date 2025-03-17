@@ -14,10 +14,12 @@ const Navbar = () => {
 
   return (
     <header className="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
-      <div className="flex-1 flex justify-between items-center">
+      
+      <div className="flex-1 ">
         <NavLink to="/" className="text-xl font-bold">FitFunction</NavLink>
+        <p>Your Body, Your Best Algorithm.</p>
       </div>
-
+     
       {/* Mobil Menü Butonu */}
       <button
         onClick={() => setIsOpen(!isOpen)}

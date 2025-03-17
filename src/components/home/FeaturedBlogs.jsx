@@ -13,7 +13,7 @@ const FeaturedBlogs = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="w-full max-w-screen-lg mx-auto p-4 sm:p-6 md:p-8 bg-warmBeige rounded-lg shadow-md overflow-hidden mb-10">
+    <div className="w-[70%] mx-auto p-4 sm:p-6 md:p-8 bg-warmBeige rounded-lg shadow-md overflow-hidden mb-10">
       
       {/* Hamburger Menu Button - Mobile Only */}
       <div className="md:hidden flex justify-between items-center p-2 bg-softPeach rounded-t-lg">
@@ -33,7 +33,7 @@ const FeaturedBlogs = () => {
 
       {/* Tab Buttons - Responsive */}
       <div className={`md:flex ${menuOpen ? "block" : "hidden"} md:block bg-softPeach p-2 rounded-t-lg`}>
-        <div className="flex flex-col md:flex-row justify-center md:space-x-4 space-y-2 md:space-y-0">
+        <div className="flex flex-col md:flex-row justify-center items-center w-full md:space-x-4 space-y-2 md:space-y-0">
           {tabs.map((tab) => (
             <button
               key={tab.id}
