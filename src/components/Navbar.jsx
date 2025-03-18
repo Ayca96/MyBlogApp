@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import DropdownMenu from "./DropdownMenu";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,17 +10,15 @@ const Navbar = () => {
     { name: "Blogs", path: "/blog" },
     { name: "New Blog", path: "/register" },
     { name: "About", path: "/about" },
-    
   ];
 
   return (
     <header className="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
-      
-      <div className="flex-1 ">
+      <div className="flex-1">
         <NavLink to="/" className="text-xl font-bold">FitFunction</NavLink>
         <p>Your Body, Your Best Algorithm.</p>
       </div>
-     
+
       {/* Mobil Menü Butonu */}
       <button
         onClick={() => setIsOpen(!isOpen)}
@@ -58,6 +57,10 @@ const Navbar = () => {
                 </NavLink>
               </li>
             ))}
+            {/* Dropdown Menü Burada */}
+            <li className="md:p-4 py-3 px-0 block">
+              <DropdownMenu />
+            </li>
           </ul>
         </nav>
       </div>
