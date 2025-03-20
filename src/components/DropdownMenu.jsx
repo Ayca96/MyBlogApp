@@ -16,9 +16,9 @@ export default function DropdownMenu() {
       {/* Menü toggle butonu */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="relative z-10 block p-2 transition-colors duration-300 transform rounded-lg focus:outline-none border-2 border-blue-500"
+        className="relative z-10 block p-2 transition-colors duration-300 transform rounded-lg focus:outline-none border-2 border-peachBeige"
       >
-        <BsThreeDotsVertical className="w-6 h-6 text-blue-500" />
+        <BsThreeDotsVertical className="w-6 h-6 text-black-900" />
       </button>
 
       {/* Menü listesi */}

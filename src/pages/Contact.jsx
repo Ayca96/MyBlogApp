@@ -24,16 +24,16 @@ const Contact = () => {
 
   return (
     <div className="max-w-screen-lg mx-auto py-40 px-5">
-      <div className="grid grid-cols-1 md:grid-cols-12 border">
+      <div className="grid grid-cols-1 md:grid-cols-12 border rounded-2xl overflow-hidden">
         <div className="bg-peachBeige md:col-span-4 p-10 text-white">
-          <p className="mt-4 text-sm uppercase">Contact</p>
+          <p className="mt-4 text-sm uppercase text-[#002D74]">Contact</p>
           <h3 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
-            Get In <span className="text-indigo-600">Touch</span>
+            Get In <span className="text-[#002D74]">Touch</span>
           </h3>
-          <p className="mt-4 text-gray-200">
+          <p className="mt-4 text-[#002D74]">
             Reach out to us for any inquiries or support.
           </p>
-          <div className="mt-5 text-sm">
+          <div className="mt-5 text-sm text-[#002D74]">
             <p>📍 House #14, Street #12, München</p>
             <p>📞 +93 749 99 65 50</p>
             <p>🕒 24/7 Support</p>
@@ -42,7 +42,7 @@ const Contact = () => {
         <form className="md:col-span-8 p-10" onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div>
-              <label className="block text-gray-700 text-xs font-bold mb-2">First Name</label>
+              <label className="block text-black-900 text-xs font-bold mb-2">First Name</label>
               <input
                 className="w-full bg-white text-gray-700 border rounded py-3 px-4 focus:outline-none focus:bg-white"
                 name="firstName"
@@ -53,7 +53,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="block text-gray-700 text-xs font-bold mb-2">Last Name</label>
+              <label className="block text-black-900 text-xs font-bold mb-2">Last Name</label>
               <input
                 className="w-full bg-white text-gray-700 border rounded py-3 px-4 focus:outline-none focus:bg-white"
                 name="lastName"
@@ -65,9 +65,9 @@ const Contact = () => {
             </div>
           </div>
           <div className="mb-6">
-            <label className="block text-gray-700 text-xs font-bold mb-2">Email Address</label>
+            <label className="block text-black-900 text-xs font-bold mb-2">Email Address</label>
             <input
-              className="w-full bg-white text-gray-700 border rounded py-3 px-4 focus:outline-none focus:bg-white"
+              className="w-full bg-white text-black-900 border rounded py-3 px-4 focus:outline-none focus:bg-white"
               name="email"
               type="email"
               placeholder="your@email.com"
@@ -98,7 +98,7 @@ const Contact = () => {
               <span className="text-sm">Send me your newsletter!</span>
             </label>
             <button
-              className="bg-indigo-600 text-white font-bold py-2 px-6 rounded hover:bg-indigo-400"
+              className="bg-[#002D74] text-white font-bold py-2 px-6 rounded hover:bg-indigo-400"
               type="submit"
             >
               Send Message

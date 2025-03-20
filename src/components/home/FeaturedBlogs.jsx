@@ -32,7 +32,7 @@ const FeaturedBlogs = () => {
       </div>
 
       {/* Tab Buttons - Responsive */}
-      <div className={`md:flex ${menuOpen ? "block" : "hidden"} md:block  bg-gray-700 p-2 rounded-t-lg`}>
+      <div className={`md:flex ${menuOpen ? "block" : "hidden"} md:block  bg-gray-900 p-2 rounded-t-lg`}>
         <div className="flex flex-col md:flex-row justify-center items-center w-full md:space-x-4 space-y-2 md:space-y-0">
           {tabs.map((tab) => (
             <button

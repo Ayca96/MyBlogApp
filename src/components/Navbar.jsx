@@ -49,7 +49,7 @@ const Navbar = () => {
                   to={item.path}
                   className={({ isActive }) =>
                     `md:p-4 py-3 px-0 block ${
-                      isActive ? "text-purple-700 font-bold" : "hover:text-purple-700"
+                      isActive ? "text-peachBeige font-bold" : "hover:text-peachBeige"
                     }`
                   }
                 >
