@@ -7,6 +7,7 @@ import About from "../pages/About";
 import Login from "../pages/Login";
 import Blog from "../pages/Blog";
 import Footer from "../components/Footer";
+import UserDashboard from "../pages/UserDashboard";
 
 const AppRouter = () => {
   return (
@@ -18,6 +19,7 @@ const AppRouter = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/blog" element={<Blog/>}/>
+        <Route path="/dashboard" element={<UserDashboard/>} />
       </Routes>
       <Footer/>
     </Router>
