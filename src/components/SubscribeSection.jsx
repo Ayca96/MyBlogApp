@@ -11,7 +11,7 @@ const SubscribeSection = () => {
 
   return (
     <div className="mx-auto !mt-20 mb-20 w-[50%] px-4 sm:mt-32 lg:px-6">
-    <div className="relative overflow-hidden bg-peachBeige px-4 py-12 shadow-2xl rounded-xl sm:rounded-2xl sm:px-12 xl:py-16">
+    <div className="relative overflow-hidden  bg-gray-800 px-4 py-12 shadow-2xl rounded-xl sm:rounded-2xl sm:px-12 xl:py-16">
       <h2 className="mx-auto max-w-2xl text-center text-2xl font-bold tracking-tight text-white sm:text-3xl">
         Keep Updated
       </h2>

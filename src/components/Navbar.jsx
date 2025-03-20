@@ -8,7 +8,7 @@ const Navbar = () => {
   // Menü Linkleri
   const navLinks = [
     { name: "Blogs", path: "/blog" },
-    { name: "New Blog", path: "/register" },
+    { name: "Contact", path: "/contact" },
     { name: "About", path: "/about" },
   ];
 

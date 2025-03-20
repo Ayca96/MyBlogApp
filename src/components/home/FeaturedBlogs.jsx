@@ -32,12 +32,12 @@ const FeaturedBlogs = () => {
       </div>
 
       {/* Tab Buttons - Responsive */}
-      <div className={`md:flex ${menuOpen ? "block" : "hidden"} md:block bg-softPeach p-2 rounded-t-lg`}>
+      <div className={`md:flex ${menuOpen ? "block" : "hidden"} md:block  bg-gray-700 p-2 rounded-t-lg`}>
         <div className="flex flex-col md:flex-row justify-center items-center w-full md:space-x-4 space-y-2 md:space-y-0">
           {tabs.map((tab) => (
             <button
               key={tab.id}
-              className={`px-4 py-2 text-black font-semibold border-b-4 transition-all duration-300 ${
+              className={`px-4 py-2 text-white font-semibold border-b-4 transition-all duration-300 ${
                 activeTab === tab.id
                   ? "border-white bg-peachBeige"
                   : "border-[#C87650] hover:bg-peachBeige"
